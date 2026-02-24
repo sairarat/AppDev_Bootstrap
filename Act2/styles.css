@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* This is the part that handles the centering */
+body {
+    font-family: "Times New Roman", Times, serif;
+    background-color: #fff;
+    color: #000;
+
+    display: flex;          /* Activates Flexbox */
+    flex-direction: column; /* Stacks children vertically */
+    justify-content: center;/* Centers content vertically (top-to-bottom) */
+    align-items: center;    /* Centers content horizontally (left-to-right) */
+    
+    height: 100vh;          /* Vital: Tells the body to be as tall as the screen */
+    width: 100vw;           /* Vital: Tells the body to be as wide as the screen */
+    text-align: center;
+}
+
+.centered-wrapper {
+    width: 90%;
+    max-width: 900px;
+}
+
+/* Header Styles */
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.section {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Horizontal Rule */
+hr {
+    border: 0;
+    border-top: 1px solid #000;
+    width: 100%;
+    margin: 10px 0 30px 0;
+}
+
+.student-info p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Activity Links - Horizontal Layout */
+.activity-links {
+    display: flex;
+    justify-content: center; /* Centers the links in the row */
+    gap: 20px;
+}
+
+.activity-links a {
+    color: #0000EE;
+    text-decoration: underline;
+    font-size: 20px;
+}
